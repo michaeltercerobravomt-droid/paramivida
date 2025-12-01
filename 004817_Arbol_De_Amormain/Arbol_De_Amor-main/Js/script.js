@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `hola mi vida se que hoy es un dia super importante pasaba por aqui para desearte un feliz dia y que te vaya excelente hoy en tu prueba, te amo un monton y gracias por hacerme feliz, perdon por todas esas rabias que te hago pasar te amo mucho <3.`;  } else {
+    text = `hola mi vida se que hoy es un dia super importante pasaba por aqui para desearte un feliz dia y que te vaya excelente hoy en tu presentacion, te amo un monton y gracias por hacerme feliz, perdon por todas esas rabias que te hago pasar te amo mucho <3.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
